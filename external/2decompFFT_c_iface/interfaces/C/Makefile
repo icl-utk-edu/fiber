@@ -4,7 +4,7 @@ DECOMP_ROOT ?= ../..
 BUILD ?= .
 DECOMP_LIB ?= $(DECOMP_ROOT)/lib
 
-include $(DECOMP_ROOT)/src/Makefile.inc
+#include $(DECOMP_ROOT)/src/Makefile.inc
 
 LIBNAME=lib2decomp_fft_iface.a
 IFACE_BUILD=$(BUILD)/build
